@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <h1>
-            Aanmelden
-    </h1>
+
 </head>
 <body>
     <main>
         <section>
             <header>
+               <h1>
+            Aanmelden
+                </h1>
                <p>
-                Bent u geïnteresseerd in samenwerken met CMD Amsterdam? Dat kan!
+                Bent u geïnteresseerd in samenwerken met CMD Amsterdam? Dat kan!
 Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook lopen de studenten stage, in het tweede en afstudeerjaar.
                </p>
             </header>
@@ -24,118 +25,80 @@ Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. O
 Voor vragen of opmerkingen kunt u contact [link: contact] met ons op.
             </p>
             </section>
+
+   <form>
             <fieldset>
 
               <h2>  Contactgegevens </h2>
-<form>
-    <ul>
-   Naam: <input type="text">
-    </ul>
-    <ul>
-    Bedrijf: <input type="text">
-    </ul>
-    <ul>
-    Adres: <input type="text">
-    </ul>
-    <ul>
-    Postcode: <input type="text">
-    </ul>
-    <ul>
-    Plaats: <input type="text">
-    </ul>
-    <ul>
-    Telefoon: <input type="text">
-    </ul>
-    <ul>
-    Email: <input type="text">
-    </ul>
-</form>
+
+  <label> Naam: <input type="text"></label>
+   <label> Bedrijf: <input type="text"></label>
+    <label>Adres: <input type="text"></label>
+    <label>Postcode: <input type="text"></label>
+    <label>Plaats: <input type="text"></label>
+    <label>Telefoon: <input type="text"></label>
+    <label>Email: <input type="text"></label>
+
      </fieldset>
-<br>
       <fieldset>
 
          <h2> Ik wil mij aanmelden</h2>
 
-           <form>
-           <ul>
-            <input type="radio" name="aanmelden" value="1"> Voor een project
-            </ul>
-            <ul>
-            <input type="radio" name="aanmelden" value="2"> Als stagebedrijf
-            </ul>
-           </form>
+
+             <label>  <input type="radio" name="aanmelden" value="1"> Voor een project </label>
+              <label> <input type="radio" name="aanmelden" value="2"> Als stagebedrijf </label>
 
        </fieldset>
-<br>
+
 <fieldset>
     <h2>Project</h2>
-    <form>
-        <ul> Titel <input type="text"> </ul>
-        <ul> Opdrachtomschrijving <input type="text"> </ul>
-        <ul> Doelgroepomschrijving <input type="text"> </ul>
-        <ul> Doelstelling/intentie van het project <input type="text"></ul>         <ul> Looptijd <input type="number"> </ul>
-        <ul> Deadline <input type="date"> </ul>
-    </form>
-    <form>
+
+        <label>Titel <input type="text"> </label>
+           <label>Opdrachtomschrijving <input type="text"> </label>
+        <label>Doelgroepomschrijving <input type="text"> </label>
+    <label>Doelstelling/intentie van het project <input type="text"></label>
+    <label>Looptijd <input type="number"> </label>
+    <label>Deadline <input type="date"> </label>
+
         Geschikt voor:
-           <ul><input type="radio" name="stage" value="1">Eerstejaars studenten </ul>
-           <ul><input type="radio" name="stage" value="2">Tweedejaars studenten </ul>
-           <ul><input type="radio" name="stage" value="3">Derdejaars studenten </ul>
-           <ul><input type="radio" name="stage" value="4">Afstudeer studenten </ul>
-           <ul><input type="radio" name="stage" value="5">Onbekend </ul>
-    </form>
-    Opmerkingen: <input type="text">
+          <label> <input type="radio" name="stage" value="1">Eerstejaars studenten </label>
+          <label> <input type="radio" name="stage" value="2">Tweedejaars studenten </label>
+           <label> <input type="radio" name="stage" value="3">Derdejaars studenten </label>
+           <label> <input type="radio" name="stage" value="4">Afstudeer studenten </label>
+           <label> <input type="radio" name="stage" value="5">Onbekend </label>
+
+   <label> Opmerkingen: <input type="text"> </label>
 </fieldset>
-<br>
+
 <fieldset>
     <h2>Stage</h2>
-    <form>
+
            Geschikt voor:
-            <ul><input type="radio" name="stage" value="1"> Tweedejaars studenten </ul>
-            <ul><input type="radio" name="stage" value="2">Afstudeer studenten </ul>
-            <ul><input type="radio" name="stage" value="3">Onbekend </ul>
-    </form>
-       <form>
+
+        <label><input type="radio" name="stage" value="1"> Tweedejaars studenten </label>
+          <label> <input type="radio" name="stage" value="2">Afstudeer studenten </label>
+           <label> <input type="radio" name="stage" value="3">Onbekend </label>
+
             Hoe lang wil je stage lopen?
-            <ul><input type="radio" name="weken" value="1"> 10 weken</ul>
-            <ul><input type="radio" name="weken" value="2"> 20 weken</ul>
-    </form>
-    <form>
-            Begin datum:
-            <input type="date">
-    </form>
-    <br>
-    <form>
-       Beschrijving werkzaamheden:<input type="text">
-    </form>
-    <br>
-    <form>
+            <label><input type="radio" name="weken" value="1"> 10 weken</label>
+            <label><input type="radio" name="weken" value="2"> 20 weken</label>
+
+            <label> Begin datum:<input type="date"> </label>
+              <label> Beschrijving werkzaamheden:<input type="text"> </label>
+
        Beschrijving stagebedrijf:
-    <ul>
-    Bedrijfsnaam: <input type="text">
-    </ul>
-    <ul>
-    Adres: <input type="text">
-    </ul>
-    <ul>
-    Postcode: <input type="text">
-    </ul>
-    <ul>
-    Plaats: <input type="text">
-    </ul>
-    <ul>
-    Sector: <input type="text">
-    </ul>
-    <ul>
-    Core Business: <input type="text">
-    </ul>
-    </form>
-    <form>
-        Opmerkingen: <input type="text">
-    </form>
+    <label> Bedrijfsnaam: <input type="text"> </label>
+    <label> Adres: <input type="text"> </label>
+    <label> Postcode: <input type="text"> </label>
+    <label> Plaats: <input type="text"> </label>
+    <label> Sector: <input type="text"> </label>
+    <label> Core Business: <input type="text"> </label>
+
+     <label> Opmerkingen: <input type="text"> </label>
+
 </fieldset>
 
-
+</form>
 
     </main>
 
